@@ -3,16 +3,14 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "../styles/User.css"; // Import the CSS file
 import "../styles/Detail.css";
+import "../styles/main.css";
 
 const User = () => {
   return (
     <div className="login-container">
       <Navbar />
       <div className="login-page">
-        <video className="video-background" autoPlay loop muted>
-          <source src="videos/myvid.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img src="/images/hotelc.jpg" alt="Background" className="bg-image" />
         <div className="login-box-detail">
           <h2>Details</h2>
           <form>

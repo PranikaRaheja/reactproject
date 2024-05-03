@@ -2,22 +2,14 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "../styles/Club.css"; // Import the CSS file
+import "../styles/main.css";
 
 const About = () => {
   return (
     <div className="login-container">
       <Navbar />
       <div className="login-page">
-        <video
-          className="video-background"
-          autoPlay
-          loop
-          muted
-          delay={100000000}
-        >
-          <source src="videos/myvid3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <img src="/images/hotelc.jpg" alt="Background" className="bg-image" />
         <div className="login-box-about1">
           <h2>Our clubs</h2>
           <p>

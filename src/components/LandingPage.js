@@ -4,10 +4,7 @@ import "../styles/main.css"; // Import your CSS file
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <video autoPlay muted loop className="video-bg">
-        <source src="videos/myvid.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <img src="/images/hotelc.jpg" alt="Background" className="bg-image" />
       <div className="landing-content">
         <h1>Venturia</h1>
         <p>
